@@ -35,7 +35,7 @@ The `students` table includes:
 ## ⚡ Setup Instructions
 
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/MubeenZahid-294/student-laravel-task.git>
 cd student-project
 composer install
 cp .env.example .env
