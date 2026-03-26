@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -57,3 +58,58 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# 🎓 student-laravel-task
+A Laravel-based project demonstrating structured database design and automated data generation using **Migrations**, **Factories**, and **Seeders**.
+
+## 🚀 Overview
+
+This project showcases how Laravel simplifies backend development by providing powerful tools for database management and data seeding. The system creates a `students` table and populates it with realistic fake data using Faker.
+
+## ⚙️ Features
+
+- 📌 Database schema creation using Laravel **Migrations**
+- 🏭 Automated data generation using **Factories**
+- 🌱 Bulk data insertion using **Seeders**
+- 🎲 Realistic dummy data powered by **Faker**
+- 🛢️ MySQL database integration via XAMPP
+
+
+## 🛠️ Tech Stack
+
+- **Laravel (PHP Framework)**
+- **PHP**
+- **MySQL**
+- **Faker Library**
+
+
+## 🧩 Database Structure
+
+The `students` table includes:
+
+- `id` (Primary Key)
+- `name` (String)
+- `email` (Unique)
+- `age` (Integer)
+- `created_at` / `updated_at` (Timestamps)
+
+## ⚡ Setup Instructions
+
+```bash
+git clone <https://github.com/MubeenZahid-294/student-laravel-task.git>
+cd student-project
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
+### **Configure Database in `.env`**
+```env
+DB_DATABASE=student_project
+DB_USERNAME=root
+DB_PASSWORD=
+
+### Run Migrations and Seeder
+php artisan migrate:fresh
+php artisan db:seed --class=StudentSeeder
+>>>>>>> e8dd9ddd7f8f0daad09773f3aeedc456fcb0b780
