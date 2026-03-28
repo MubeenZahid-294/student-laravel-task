@@ -62,19 +62,19 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 >>>>>>> e8dd9ddd7f8f0daad09773f3aeedc456fcb0b780
 
-# Student Laravel Task
+# Student Laravel Task 🎓📘
 
-This project is created using Laravel.
+This project is created using Laravel ⚙️.
 
-## Features:
-- Student table created using migration
-- Seeder and factory (faker) used
-- 30 student records generated automatically
+## Features ✨:
+- Student table created using migration 🗄️
+- Seeder and factory (Faker) used 🌱
+- 30 student records generated automatically 📊
 
 ## Tools Used:
-- Laravel
-- MySQL
-- Faker
+- Laravel 🚀
+- MySQL 🛢️
+- Faker 🎭
 
 ## Author:
 Mubeen Zahid
